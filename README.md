@@ -11,6 +11,8 @@ codex 2
 agy
 ```
 
+![Spawn popup for claude 3](docs/spawn.png)
+
 Enter opens that many panes in a new tab, in the focused pane's directory. The count defaults to 1 and stops at 8. A close miss such as `claud` still selects Claude. Esc closes the popup.
 
 The tab is tiled: two panes sit side by side, three use a tall pair plus one, four make a grid. Each pane gets a Herdr agent name like `claude-1`. If the agent stops on a trust prompt, the pane stays open so you can answer it.
